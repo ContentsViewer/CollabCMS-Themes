@@ -1,4 +1,15 @@
+/* ==UserStyle==
+@name           CollabCMS Dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         IOE
+@homepageURL  https://github.com/ContentsViewer/CollabCMS-Themes
+@updateURL    https://raw.githubusercontent.com/ContentsViewer/CollabCMS-Themes/master/collabcms-dark.user.css
+==/UserStyle== */
+
 @-moz-document domain("contentsviewer.work") {
+
 @media screen {
   body {
     background-color: #282828;
