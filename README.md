@@ -1,6 +1,8 @@
 # CollabCMS-Themes
 
-CollabCMS のテーマを**ダークテーマ**にします.
+CollabCMS のテーマを変更できます.
+
+* dark
 
 ## インストール
 ### ブラウザの拡張機能が必要です
