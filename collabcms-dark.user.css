@@ -2,7 +2,6 @@
 @name           CollabCMS Dark
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    A new userstyle
 @author         IOE
 @homepageURL  https://github.com/ContentsViewer/CollabCMS-Themes
 @updateURL    https://raw.githubusercontent.com/ContentsViewer/CollabCMS-Themes/master/collabcms-dark.user.css
@@ -11,21 +10,19 @@
 @-moz-document domain("contentsviewer.work") {
 
 @media screen {
+  :root {
+/*     --main-font-color: #ffffff; */
+    --main-font-color: #cccccc;
+
+  }
+  
   body {
     background-color: #282828;
-    color: #ffffff;
+    color: var(--main-font-color);
   }
 
   #main {
     background-color: #1f1f1f;
-  }
-
-  a:visited {
-    color: #4183c4;
-  }
-
-  a {
-    color: #3ea6ff
   }
 
   #header {
@@ -34,6 +31,14 @@
   .overlay-header {
     background-color: #1d5558;
   }
+  
+  a:visited {
+    color: #4183c4;
+  }
+
+  a {
+    color: #3ea6ff
+  }
 
   h1,
   h2,
@@ -41,7 +46,7 @@
   h4,
   h5,
   h6 {
-    color: #ffffff;
+    color: var(--main-font-color);
   }
 
   ul.child-list > li:after {
@@ -84,24 +89,44 @@
   }
   .navi a.selected {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    color: var(--main-font-color);
   }
   .navi a:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    color: var(--main-font-color);
   }
   .new-box {
     border: 2px solid #f3cbd087;
   }
   ul.tag-list li a {
-    color: #ffffff;
+    color: var(--main-font-color);
   }
   #game-panel {
     background-color: #1f1f1f;
-    color: #ffffff;
+    color: var(--main-font-color);
   }
   #game-panel-title {
-    color: #ffffff;
+    color: var(--main-font-color);
+  }
+  .box-warning{
+    background-color: transparent;
+  }
+  .menu-open-button{
+    background-color: rgba(62, 62, 62, 1);
+  }
+  .menu-open-button .lines{
+    background-color: #cdd2d8;
+  }
+  .spinner{
+    background-color: #ffffff;
+  }
+  #loading-box .spinner{
+    background-color: transparent;
+  }
+  .search-box > input{
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+    color: var(--main-font-color);
   }
 }
 }
