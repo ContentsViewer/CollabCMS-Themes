@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           CollabCMS Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @author         IOE
 @homepageURL  https://github.com/ContentsViewer/CollabCMS-Themes
 @updateURL    https://raw.githubusercontent.com/ContentsViewer/CollabCMS-Themes/master/collabcms-dark.user.css
@@ -50,6 +50,10 @@
     h5,
     h6 {
       color: var(--main-font-color);
+    }
+    code{
+      background-color: rgba(0,0,0,0.2);
+      border: 1px solid rgba(255, 255, 255, .1);
     }
 
     ul.child-list > li:after {
